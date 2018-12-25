@@ -42,8 +42,6 @@ class Pagination(object):
         page_list = []
         if self.currentPage == 1:
             prev = "<a href=#>上一页</a>"
-
-            
         else:
             prev = "<a href = /index2?p=%s>上一页</a>" % (self.currentPage - 1)
         page_list.append(prev)
